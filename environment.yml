@@ -1,0 +1,16 @@
+name: scRNA-seq-analysis
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - scanpy
+  - anndata
+  - matplotlib
+  - seaborn
+  - igraph
+  - louvain
+  
